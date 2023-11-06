@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: comic sans ms;
+}
+.back-video
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+#form
+{
+    background-color: black;
+    height: 400px;
+    width: 800px;
+    margin: auto;
+    margin-right: 1px;
+    margin-top: 120px;
+    opacity: 0.8;
+    border-radius: 15px;
+    padding-bottom: 40%;
+}
+h1
+{
+    font-size: 40px;
+    opacity: none;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px white,2px 2px 4px whitesmoke,0 2px 4px wheat;
+}
+#first-group
+{
+    border: 2px solid rgb(121, 250, 1);
+    width: 400px;
+    margin-top: 25px;
+    position: absolute;
+}
+#second-group
+{
+    border: 2px solid rgb(121, 250, 1);
+    width: 400px;
+    margin-top: 33px;
+    margin-left: 400px;
+}
+#content
+{
+    border: 1px solid white;
+    margin: 10px;
+    margin-left: 8px;
+    padding: 5px;
+}
+#content #input-group
+{
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 8px;
+    width: 300px;
+    font-weight: 600;
+    font-size: 18px;
+    width: 300px;
+    color: wheat;
+}
+::placeholder
+{
+    color: whitesmoke;
+}
+.fa
+{
+    display: inline-block;
+    color: rgb(0, 255, 242);
+    border-left: 2px solid white;
+    padding: 8px;
+    margin-left: 10px;
+   align-items: center;
+}
+#submit-btn
+{
+    margin-top: 10px;
+    margin-left: 550px;
+    background: transparent;
+    color: white;
+    width: 150px;
+    border: 2px dashed yellow;
+    outline: none;
+    padding: 5px;
+    font-size: 20px;
+}
+.image
+{
+    width: 32%;
+    margin-top: 100px;
+    float: left;
+}
